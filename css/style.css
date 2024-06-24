@@ -1,0 +1,120 @@
+.innerh2 {
+    border-top: 2px dotted black;
+}
+
+body {
+    background-color: #F7ECDE;
+}
+
+.tabble {
+    border-top: 2px dotted black;
+}
+::selection{
+    background-color: #FEC260;
+}
+h1 {
+    font-size: 50px;
+    font-family: "Pacifico", cursive;
+    color: #352e28;
+    isolation: isolate;
+}
+h1:hover::before{
+    content: "";
+    width: 20%;
+    height: 35px;
+    background-color: #FEC260;
+    position: absolute;
+    bottom: 50px;
+    left: 40%;
+    z-index: -1;
+}
+h1::before {
+    content: "";
+    width: 20%;
+    height: 17px;
+    background-color: #FEC260;
+    position: absolute;
+    bottom: 50px;
+    transition: all .5s;
+    left: 40%;
+    z-index: -1;
+}
+
+.visit {
+    background: #9eb23b;
+}
+
+.delete {
+    background: #eb1d36;
+}
+
+.delete:hover {
+    background: #D30820;
+}
+
+.visit:hover {
+    background: #8A9E23;
+}
+
+* {
+    overflow-x: hidden;
+}
+
+h2 {
+    font-family: "Righteous", cursive;
+    font-size: 25px;
+    background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(to right, #3ca55c, #b5ac49);
+}
+
+.tablebtn {
+    width: 100px;
+    height: 40px;
+    border: 0px;
+    border-radius: 7px;
+    color: white;
+    font-size: 18px;
+}
+
+.tablebtn i {
+    font-size: 17px;
+}
+
+.fa-eye {
+    margin-top: 6px;
+    margin-right: 10px;
+}
+
+i {
+    font-size: 22px;
+    margin: 0 2px;
+}
+
+.fa-book-bookmark {
+    font-size: 17px;
+}
+
+.submitbtn:hover {
+    background-color: #a03315;
+    ;
+    color: white;
+}
+
+.submitbtn {
+
+    background-color: #d1512d;
+    border: 0;
+    width: 150px;
+    height: 40px;
+    border-radius: 4px;
+    color: white;
+    font-size: 20px;
+
+}
+
+#sb {
+    margin: 0 50%;
+    transform: translateX(-50%);
+    margin-bottom: 30px;
+}
